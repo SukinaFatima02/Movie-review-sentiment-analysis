@@ -13,8 +13,8 @@ from sklearn.metrics import accuracy_score
 # ==================================================
 
 st.set_page_config(
-    page_title="Movie Review Sentiment Analysis",
-    page_icon="🎬",
+    page_title="Amazon Product Review Sentiment Analysis",
+    page_icon="🛍️",
     layout="wide"
 )
 
@@ -136,7 +136,7 @@ positive_reviews = (df["Sentiment"] >= 4).sum()
 
 if page == "Home":
 
-    st.title("🎬 Movie Review Sentiment Analysis")
+    st.title("🛍️ Amazon Product Review Sentiment Analysis")
 
     st.write(
         "Analyze Amazon product reviews and predict whether the review "
@@ -229,19 +229,19 @@ if page == "Home":
 
 if page == "Review Prediction":
 
-    st.title("🔍 Review Sentiment Prediction")
+    st.title("🔍 Product Review Sentiment Prediction")
 
     st.info(
-        "Enter a movie or product review below to predict whether "
+        "Enter an Amazon product review below to predict whether "
         "it is Positive or Negative."
     )
 
 
     review = st.text_area(
-        "Write your review here:",
+        "Write your product review here:",
         placeholder=(
-            "Example: This movie was absolutely fantastic! "
-            "I really enjoyed it."
+            "Example: This product is absolutely fantastic! "
+            "I really enjoyed using it."
         )
     )
 
@@ -385,7 +385,7 @@ if page == "About Project":
 st.markdown("---")
 
 st.write(
-    "🎬 Movie Review Sentiment Analysis | Machine Learning Project"
+    "🛍️ Amazon Product Review Sentiment Analysis | Machine Learning Project"
 )
 
 st.write(
