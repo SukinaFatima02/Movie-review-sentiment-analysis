@@ -1,6 +1,6 @@
-# Movie Review Sentiment Analysis
+# Amazon Product Review Sentiment Analysis
 
-This project analyzes Amazon product reviews and predicts whether a review is **Positive** or **Negative** using Machine Learning.
+This project analyzes Amazon product reviews and predicts whether a review is **Positive** or **Negative** using Machine Learning and Natural Language Processing.
 
 ## Technologies Used
 
@@ -10,10 +10,11 @@ This project analyzes Amazon product reviews and predicts whether a review is **
 - Scikit-learn
 - TF-IDF
 - Multinomial Naive Bayes
+- Natural Language Processing (NLP)
 
 ## Dataset
 
-The dataset contains **25,000 Amazon product reviews** with ratings from 1 to 5.
+The dataset contains **25,000 Amazon product review records** with ratings from 1 to 5.
 
 - Ratings 1–3 → Negative
 - Ratings 4–5 → Positive
@@ -26,7 +27,7 @@ The model achieved **79.90% test accuracy**.
 
 ## Web Application
 
-The project is deployed using Streamlit and allows users to enter a review and receive a Positive or Negative sentiment prediction.
+The project is deployed using Streamlit and allows users to enter an Amazon product review and receive a **Positive** or **Negative** sentiment prediction.
 
 ## Live Demo
 
