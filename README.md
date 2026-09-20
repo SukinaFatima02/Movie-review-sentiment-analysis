@@ -31,4 +31,4 @@ The project is deployed using Streamlit and allows users to enter an Amazon prod
 
 ## Live Demo
 
-https://movie-review-sentiment-analysis-iwr3ewocjhovdo3cadyvdk.streamlit.app/
+https://amazon-review-sentiment-analysis-pro.streamlit.app/
